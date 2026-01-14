@@ -1,0 +1,41 @@
+{
+    "stopband": [
+        [
+            0,
+            3,
+            44.17,
+            45.82
+        ]
+    ],
+    "passband": [
+        [
+            0,
+            1,
+            35.44,
+            36.48
+        ],
+        [
+            0,
+            3,
+            39.29,
+            40.68
+        ]
+    ],
+    "design_variable_names": [
+        "Strut Radius",
+        "Center Mass Radius",
+        "Corner Mass Radius"
+    ],
+    "categorical_variable_indices": [],
+    "data_path": "band_info_2D.csv",
+    "num_estimators": 100,
+    "num_mode": 15,
+    "num_k": 61,
+    "freq_of_interest": [
+        0,
+        60
+    ],
+    "num_generated_designs": 30,
+    "sample_threshold": 0.5,
+    "val_data_path": "validation"
+}
